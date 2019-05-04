@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="M:\epanet-dev\src\Core\datamanager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\diagnostics.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\epanet3.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\error.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\hydbalance.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\hydengine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\network.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\options.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\project.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\qualbalance.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\qualengine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Core\units.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\control.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\curve.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\demand.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\element.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\emitter.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\junction.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\link.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\node.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\pattern.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\pipe.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\pump.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\pumpcurve.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\qualsource.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\reservoir.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\tank.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Elements\valve.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\controlparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\curveparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\inputparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\inputreader.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\linkparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\nodeparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\optionparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Input\patternparser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\demandmodel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\headlossmodel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\leakagemodel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\pumpenergy.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\qualmodel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Models\tankmixmodel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Output\outputfile.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Output\projectwriter.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Output\reportfields.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Output\reportwriter.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\ggasolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\hydsolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\ltdsolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\matrixsolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\qualsolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\sparspak.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Solvers\sparspaksolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Utilities\graph.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Utilities\mempool.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Utilities\segpool.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\epanet-dev\src\Utilities\utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="M:\epanet-dev\src\Core\constants.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\datamanager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\diagnostics.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\error.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\hydbalance.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\hydengine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\network.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\options.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\project.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\qualbalance.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\qualengine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Core\units.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\control.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\curve.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\demand.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\element.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\emitter.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\junction.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\link.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\node.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\pattern.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\pipe.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\pump.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\pumpcurve.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\qualsource.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\reservoir.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\tank.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Elements\valve.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\controlparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\curveparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\inputparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\inputreader.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\linkparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\nodeparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\optionparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Input\patternparser.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\demandmodel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\headlossmodel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\leakagemodel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\pumpenergy.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\qualmodel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Models\tankmixmodel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Output\outputfile.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Output\projectwriter.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Output\reportfields.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Output\reportwriter.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\ggasolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\hydsolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\ltdsolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\matrixsolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\qualsolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\sparspak.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Solvers\sparspaksolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Utilities\graph.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Utilities\mempool.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Utilities\segpool.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\epanet-dev\src\Utilities\utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="M:\epanet-dev\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5F79A1ED-BA3B-3295-9444-A8A6682023D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{D683A8E0-96C4-3CB9-9F5B-297C7F42E432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1888F5F2-38BF-313E-9B89-BF3EAD671CC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{81FA66E9-2106-3AAD-81F2-180119768003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{7F6EEE66-FB90-3B5E-A5E5-2AFE6A77C238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers">
+      <UniqueIdentifier>{A5222AA3-1510-3EAA-83E1-CE6986077995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{024DF1BB-4EBB-378E-83BB-AD235E84CF80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
