@@ -36,3 +36,9 @@ build
 *.VC.opendb
 build32/.vs/
 build64/.vs/
+*.tlog
+*.log
+*.pdb
+*.ilk
+*.exp
+
