@@ -30,3 +30,9 @@
 
 # build products
 build
+
+# Visual Studio files
+*.VC.db
+*.VC.opendb
+build32/.vs/
+build64/.vs/
