@@ -58,7 +58,6 @@ EXPORTS
 	??_R0?AVValve@@@8 	 DATA
 	??_R0?AVVariablePattern@@@8 	 DATA
 	??_R0?AVbad_cast@std@@@8 	 DATA
-	??_R0?AVexception@std@@@8 	 DATA
 	??_R0?AVios_base@std@@@8 	 DATA
 	?CurveTypeWords@Curve@@2PAPEBDA 	 DATA
 	?LinkFieldNames@ReportFields@@2PAPEBDA 	 DATA
@@ -795,8 +794,6 @@ EXPORTS
 	??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
 	??0bad_cast@std@@QEAA@AEBV01@@Z
 	??0bad_cast@std@@QEAA@XZ
-	??0exception@std@@QEAA@AEBV01@@Z
-	??0exception@std@@QEAA@QEBDH@Z
 	??0sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@_N@Z
 	??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
 	??1?$_Compressed_pair@U?$_Wrap_alloc@U?$_Wrap_alloc@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVElement@@@std@@@std@@@std@@@std@@@std@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVElement@@@std@@@std@@@std@@@std@@@std@@@2@$00@std@@QEAA@XZ
@@ -977,7 +974,6 @@ EXPORTS
 	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
 	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
 	??1bad_cast@std@@UEAA@XZ
-	??1exception@std@@UEAA@XZ
 	??1locale@std@@QEAA@XZ
 	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
 	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
@@ -2368,7 +2364,6 @@ EXPORTS
 	?validateStatus@Pump@@UEAAXPEAVNetwork@@N@Z
 	?validateStatus@Valve@@UEAAXPEAVNetwork@@N@Z
 	?valueOption@Options@@QEAANW4ValueOption@1@@Z
-	?what@exception@std@@UEBAPEBDXZ
 	?writeAuxData@ProjectWriter@@AEAAXXZ
 	?writeBalance@QualBalance@@QEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
 	?writeControls@ProjectWriter@@AEAAXXZ

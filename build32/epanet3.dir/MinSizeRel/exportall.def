@@ -58,7 +58,6 @@ EXPORTS
 	??_R0?AVValve@@@8 	 DATA
 	??_R0?AVVariablePattern@@@8 	 DATA
 	??_R0?AVbad_cast@std@@@8 	 DATA
-	??_R0?AVexception@std@@@8 	 DATA
 	??_R0?AVios_base@std@@@8 	 DATA
 	?CurveTypeWords@Curve@@2PAPBDA 	 DATA
 	?LinkFieldNames@ReportFields@@2PAPBDA 	 DATA
@@ -216,7 +215,6 @@ EXPORTS
 	??0VariablePattern@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 	??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z
 	??0bad_cast@std@@QAE@ABV01@@Z
-	??0exception@std@@QAE@ABV01@@Z
 	??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z
 	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ
 	??1?$basic_fstream@DU?$char_traits@D@std@@@std@@UAE@XZ
@@ -297,7 +295,6 @@ EXPORTS
 	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@XZ
 	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ
 	??1bad_cast@std@@UAE@XZ
-	??1exception@std@@UAE@XZ
 	??1locale@std@@QAE@XZ
 	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@XZ
 	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ
@@ -923,7 +920,6 @@ EXPORTS
 	?validateStatus@Pipe@@UAEXPAVNetwork@@N@Z
 	?validateStatus@Pump@@UAEXPAVNetwork@@N@Z
 	?validateStatus@Valve@@UAEXPAVNetwork@@N@Z
-	?what@exception@std@@UBEPBDXZ
 	?writeAuxData@ProjectWriter@@AAEXXZ
 	?writeBalance@QualBalance@@QAEXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
 	?writeControls@ProjectWriter@@AAEXXZ
